@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">ToDoApp</string>
+    <string name="app_name">ToDo</string>
+
+    <string name="todo">ToDo</string>
+    <string name="complete">完了済み</string>
+    <string name="app">アプリ</string>
+    <string name="settings">設定</string>
+
+    <!-- アプリ画面 -->
+
+    <!-- 設定画面（タスク設定）-->
+
+    <!-- 設定画面（カスタマイズ）-->
+
+    <!-- 設定画面（このアプリについて）-->
+
+    <!-- 設定画面（データ削除）-->
+
+    <!-- ライセンス画面 -->
+
+    <!-- ダイアログ共通 -->
+
 </resources>
