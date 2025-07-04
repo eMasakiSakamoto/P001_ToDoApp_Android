@@ -1,6 +1,5 @@
-package com.free.masaki.sakamoto.todoapp.ui.theme
+package com.free.masaki.sakamoto.todoapp.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

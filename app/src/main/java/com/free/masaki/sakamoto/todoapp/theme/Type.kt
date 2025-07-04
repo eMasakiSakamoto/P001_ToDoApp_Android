@@ -1,4 +1,4 @@
-package com.free.masaki.sakamoto.todoapp.ui.theme
+package com.free.masaki.sakamoto.todoapp.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
