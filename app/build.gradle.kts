@@ -56,4 +56,32 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation(libs.lifecycle.viewmodel)
+    implementation(libs.lifecycle.rntime.compose)
+
+    // Navigation
+    implementation(libs.navigation.compose)
+
+    // Coroutines
+    implementation(libs.kotlin.coroutines.core)
+    implementation(libs.kotlin.coroutines.android)
+
+    // Koin
+    implementation(libs.koin.android)
+    implementation(libs.koin.core)
+    implementation(libs.koin.compose)
+    implementation(libs.koin.compose.viewmodel)
+
+    // Coil
+    implementation(libs.coil.compose.core)
+    implementation(libs.coil.network.ktor3)
+
+    // DataStore
+    implementation(libs.androidx.datastore)
+    implementation(libs.androidx.datastore.preferences)
+
+    // Room
+    implementation(libs.androidx.room.runtime)
+    implementation(libs.androidx.room.compiler)
 }
