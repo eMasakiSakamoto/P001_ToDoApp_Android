@@ -1,24 +1,24 @@
 [versions]
 agp = "8.10.1"
 coilComposeCore = "3.1.0"
-datastore = "1.1.1"
+datastore = "1.1.7"
 koinAndroid = "4.0.4"
 koinCompose = "4.0.4"
 koinComposeViewmodel = "4.0.4"
 koinCore = "4.0.4"
-kotlin = "2.0.21"
+kotlin = "2.1.21"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 kotlinCoroutinesAndroid = "1.10.2"
 kotlinCoroutinesCore = "1.10.2"
-lifecycleRntimeCompose = "2.9.0-alpha07"
+lifecycleRntimeCompose = "2.9.1"
 lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
-composeBom = "2024.09.00"
-lifecycleViewmodel = "2.9.0-alpha07"
-navigationCompose = "2.9.0-alpha17"
+composeBom = "2025.06.01"
+lifecycleViewmodel = "2.9.1"
+navigationCompose = "2.9.0-beta03"
 roomRuntime = "2.7.2"
 roomCompiler = "2.7.2"
 
@@ -47,9 +47,9 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndr
 koin-compose = { module = "io.insert-koin:koin-compose", version.ref = "koinCompose" }
 koin-compose-viewmodel = { module = "io.insert-koin:koin-compose-viewmodel", version.ref = "koinComposeViewmodel" }
 koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinCore" }
-kotlin-coroutines-android = { module = "org.jetbrains.kotlin:kotlin-coroutines-android", version.ref = "kotlinCoroutinesAndroid" }
-kotlin-coroutines-core = { module = "org.jetbrains.kotlin:kotlin-coroutines-core", version.ref = "kotlinCoroutinesCore" }
-lifecycle-rntime-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-rntime-compose", version.ref = "lifecycleRntimeCompose" }
+kotlin-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinCoroutinesAndroid" }
+kotlin-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinCoroutinesCore" }
+lifecycle-rntime-compose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRntimeCompose" }
 lifecycle-viewmodel = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel", version.ref = "lifecycleViewmodel" }
 navigation-compose = { module = "org.jetbrains.androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 
